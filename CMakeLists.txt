@@ -43,7 +43,7 @@ INCLUDE_DIRECTORIES( ${HDF5_INCLUDE_DIRS} )
 ###################################
 
 SET ( GTEST_INC_DIR "" )
-ADD_SUBDIRECTORY( gtest EXCLUDE_FROM_ALL )
+ADD_SUBDIRECTORY( gtest )
 INCLUDE_DIRECTORIES( ${GTEST_INC_DIR} )
 
 ###################################
